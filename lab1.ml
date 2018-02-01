@@ -132,13 +132,13 @@ let exercise5b : string =
   let greet y = "Hello " ^ y
   in greet "World!";;
 
-let exercise5c : fun -> int =
+let exercise5c : fun =
   fun (x, y) -> x + int_of_float y ;;
 
-let exercise5d : fun -> bool =
+let exercise5d : fun =
   fun x -> x < x + 1 ;;
 
-let exercise5e : fun -> lst =
+let exercise5e : fun=
   fun x -> if x then [x] else [] ;;
 
 (* remove this end of comment line too ----> *)
