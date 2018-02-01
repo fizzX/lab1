@@ -128,7 +128,7 @@ error is generated.
 
 let exercise5a : int = 42 ;;
 
-let exercise5b : fun =
+let exercise5b : string =
   let greet y = "Hello " ^ y
   in greet "World!";;
 
