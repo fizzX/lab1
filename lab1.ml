@@ -149,7 +149,7 @@ let exercise5c : int * float -> int =
 let exercise5d : int -> bool =
   fun x -> x < x + 1 ;;
 
-let exercise5e : bool -> list=
+let exercise5e : bool -> lst =
   fun x -> if x then [x] else [] ;;
 
 (* remove this end of comment line too ----> *)
