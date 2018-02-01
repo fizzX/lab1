@@ -113,7 +113,18 @@ correspond to. Check it with a member of the course staff if you'd
 like.
 ......................................................................*)
 
-   
+ (*   
+      -
+      |
+      |
+      +
+      ^
+     / \
+    /   \
+   5     3
+
+
+    *)
 (*======================================================================
 Part 2: Types and type inference
 
@@ -132,13 +143,13 @@ let exercise5b : string =
   let greet y = "Hello " ^ y
   in greet "World!";;
 
-let exercise5c : fun =
+let exercise5c : int * float -> int =
   fun (x, y) -> x + int_of_float y ;;
 
-let exercise5d : fun =
+let exercise5d : int -> bool =
   fun x -> x < x + 1 ;;
 
-let exercise5e : fun=
+let exercise5e : bool -> list=
   fun x -> if x then [x] else [] ;;
 
 (* remove this end of comment line too ----> *)
